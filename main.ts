@@ -1,7 +1,7 @@
 import { Hono } from "https://deno.land/x/hono@v3.4.1/mod.ts";
 
 const app = new Hono();
-const kv = await Deno.openKv();
+// const kv = await Deno.openKv();
 
 
 app.get("/", async (c) => {
